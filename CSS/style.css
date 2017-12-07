@@ -1,0 +1,200 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+  }
+
+.name {
+  color: MediumAquamarine;
+  padding-left: 20px;
+  }
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  }
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  }
+
+.navtitle {
+  padding: 0px 20px;
+  }
+
+.bigcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftcolumn{
+  display:inline-flex;
+  flex-direction: column;
+  margin: 10px 5px 20px 0px;
+  width: 630px;
+}
+
+.leftcolumn p, .middlecolumn p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.top{
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 0px 5px 0px;
+}
+
+.topimage{
+  display: inline-flex;
+  background-image: url(./Champagne.png);
+  background-size: cover;
+  height: 300px;
+}
+.topimage h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  }
+
+/* Maybe rule below is not necessary */
+.toptext {
+  display: inline-flex;
+}
+
+.bottom{
+  display: inline-flex;
+  flex-direction: row;
+  margin: 5px 0px 0px 0px;
+}
+
+.bottomlimage h2, .bottomrimage h2, .mcbottomimg h2{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.bottomleft{
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 9px 0px 0px;
+}
+
+.bottomltext{
+  margin: 0px 0px 5px 0px
+}
+
+.bottomlimage{
+  display: inline-flex;
+  background-image: url(./Girlback.png);
+  background-size: cover;
+  height: 300px;
+}
+
+.bottomright{
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 9px;
+}
+
+.bottomrtext{
+  margin: 0px 0px 5px 0px;
+}
+
+.bottomrimage{
+  display: inline-flex;
+  background-image: url(./Hipster.png);
+  background-size: cover;
+  height: 300px;
+}
+
+.middlecolumn{
+  display:inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.mctop{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.mcbottom{
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.mcbottomimg{
+  display: inline-flex;
+  background-image: url(./Cat.png);
+  background-size: cover;
+  height: 300px;
+}
+
+.mcbottomimg h2 {text-align: center;}
+
+.rightcolumn{
+  display:inline-flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.rightcolumn h3{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rightcolumn p{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px 0px;
+  margin: 0px;
+  border-bottom: 3px solid black;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin: 20px 15px 0px 0px;
+  justify-content: center;
+  align-content: center;
+  background-color: MediumAquamarine;
+}
+
+.ftop{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fbottom{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.fbottom p, .ftop a{
+  font-family: Verdana;
+  font-size: 12px;
+  padding-left: 15px
+}
+
+.ftop p{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 10px;
+  border-right: 1px solid white;
+}
